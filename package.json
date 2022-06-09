@@ -1,0 +1,23 @@
+{
+  "name": "jest-study-example-for-gowxx",
+  "version": "1.0.0",
+  "description": "学习《Jest 实践指南》的配套项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOWxx/jest-study-example-for-gowxx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GOWxx/jest-study-example-for-gowxx/issues"
+  },
+  "homepage": "https://github.com/GOWxx/jest-study-example-for-gowxx#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
