@@ -8,6 +8,7 @@
     "start": "webpack serve",
     "lint": "eslint tests src --fix",
     "test": "jest",
+    "test_update_snapshot": "jest --updateSnapshot",
     "prepare": "husky install"
   },
   "repository": {
