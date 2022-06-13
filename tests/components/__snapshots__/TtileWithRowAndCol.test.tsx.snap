@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title 可以正确渲染大字 1`] = `
+<div>
+  大字
+</div>
+`;
+
+exports[`Title 可以正确渲染大字 2`] = `
+<div>
+  我是一个大帅哥
+</div>
+`;
+
+exports[`Title 可以正确渲染小字 1`] = `
+<div>
+  小字
+</div>
+`;
