@@ -4,6 +4,7 @@
   "description": "学习《Jest 实践指南》的配套项目",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve",
     "test": "jest"
   },
   "repository": {
@@ -19,10 +20,28 @@
   "homepage": "https://github.com/GOWxx/jest-study-example-for-gowxx#readme",
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "^27.5.1",
     "jest-environment-jsdom-global": "^3.0.0",
     "jest-location-mock": "^1.0.9",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
     "ts-jest": "^27.1.4",
-    "typescript": "^4.6.3"
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "antd": "^4.19.5",
+    "axios": "^0.26.1",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
